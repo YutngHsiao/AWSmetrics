@@ -5,8 +5,8 @@ import time
 import os
 
 region = 'eu-west-2'
-ACCESS_KEY = 'AKIAI3I45XRHMDD2V6NA'
-SECRET_KEY = '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'
+ACCESS_KEY = KEY
+SECRET_KEY = SECRET
 c_time = datetime.utcnow()
 client = boto3.client('cloudwatch',region_name=region, aws_access_key_id=ACCESS_KEY, aws_secret_access_key=SECRET_KEY)
 
